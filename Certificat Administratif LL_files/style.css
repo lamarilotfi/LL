@@ -1,0 +1,126 @@
+/*
+ *	CSS version 0.1
+ *
+ *	Copyright (c) 2019 Rodolphe Dupont
+ *
+ *	Dual licensed under the MIT and GPL licenses.
+ *	http://en.wikipedia.org/wiki/MIT_License
+ *	http://en.wikipedia.org/wiki/GNU_General_Public_License
+ */
+body, html{
+	font-family: 'Source Sans Pro Light', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	color: #383D40;
+	background-color: #E8EBED;
+}
+#PageAllContent{
+	height: 100%;
+}
+.container{
+	max-width: none;
+}
+.spacer{
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/******************** STYLE :	CONTENT ********************/
+.separation10px, .separation15px, .separation20px, .separation30px, .separation40px, .separation50px{
+	float: left;
+	width: 100%;
+}
+.separation10px{
+	height: 10px;
+}
+.separation15px{
+	height: 15px;
+}
+.separation20px{
+	height: 20px;
+}
+.separation30px{
+	height: 30px;
+}
+.separation40px{
+	height: 40px;
+}
+.separation50px{
+	height: 50px;
+}
+.noFloat{
+	float: none;
+}
+.marginTop40{
+	margin-top: 40px;
+}
+.SectionDivider{
+	overflow: hidden;
+	width: 106%;
+	height: 1px;
+	margin: 20px -3% 30px;
+	background-color: #D9DDE2;
+}
+.ContentWhiteBox{
+	width: 100%;
+	padding: 3%;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.ContentWhiteBox.noPadding{
+	padding: 0;
+}
+.ContentWhiteBox.marginBottom10{
+	margin-bottom: 10px;
+}
+.ContentWhiteBox.marginBottom20{
+	margin-bottom: 20px;
+}
+.ContentWhiteBox.marginBottom30{
+	margin-bottom: 30px;
+}
+
+/**/
+.TitreSection{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	height: 24px;
+	color: #4897D8;
+}
+.TitreSection .material-icons{
+	font-size: 20px;
+	line-height: 24px;
+	height: 24px;
+	vertical-align: bottom;
+}
+.alignRight{
+	text-align: right;
+}
+
+.smallModal{
+	overflow-y: none;
+}
+
+/******************** STYLE :	CONTENT ********************/
+#ContentHolder{
+	display: block;
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	margin-left: 0;
+	-webkit-transition: margin 0.5s, width 0.5s;
+	        transition: margin 0.5s, width 0.5s;
+}
+
+.container{
+	min-height: 100%;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
